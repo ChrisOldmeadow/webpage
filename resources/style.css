@@ -1,0 +1,194 @@
+html {
+  background: #051622;
+  color: #F1F1EF;
+  padding: 25px;
+}
+
+body {
+  max-width: 70ch;
+  display: block;
+  margin: auto;
+  padding: 0;
+  padding-bottom: 50px;
+}
+
+.ascii-art {
+    display: block;
+    margin: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 0.75em;
+    font-weight: bold;
+    white-space: pre;
+}
+
+
+a {
+  color: #ECAF44;
+}
+
+hr {
+  border-color: #1BA098;
+  background-color: #1BA098;
+  color: #1BA098;
+}
+
+pre {
+  background: #383838;
+  padding: 10px;
+  border-left: 3px solid;
+  overflow: auto;
+  page-break-inside: avoid;
+}
+
+
+img {
+  max-width: 40ch;
+  display: inline-block;
+}
+
+blockquote {
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-left: 3px solid;
+}
+
+blockquote p {
+  text-align: left;
+}
+
+p > code {
+  background: #383838;
+  padding: 3px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 1.5px;
+}
+
+h1 {
+  margin-top: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: monospace;
+}
+
+h2 {
+  margin-top: 1em;
+}
+
+details summary {
+  cursor: pointer;
+}
+
+
+svg {
+  width: 100%;
+}
+
+svg * {
+  stroke: #1BA098;
+  fill: none;
+}
+
+svg .text * {
+  stroke: none;
+  fill: #1BA098;
+}
+
+noscript, .noscript {
+  display: block;
+  margin: 2em;
+  padding: 2em;
+  border: 5px solid #1BA098;
+  border-radius: 3px;
+}
+
+.button-container {
+  padding: 1em;
+  text-align: center;
+}
+
+a.button {
+  color: #1BA098;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
+a.button:hover {
+  color: black;
+  background: #1BA098;
+  text-decoration: none;
+  border: 2px solid #1BA098;
+}
+
+.menu hr {
+  border: 0;
+  border-top: 3px solid;
+}
+
+.menu {
+  padding: 5px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.menu ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  display: inline-block;
+  font-size: 1em;
+  padding: 0.75em;
+  text-align: center;
+  flex: 1;
+  /* text-transform: uppercase; */
+}
+
+.menu li a {
+  text-decoration: none;
+  border: 0;
+  padding: 10px;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer hr {
+  border-top: 2px solid;
+}
+
+
+.footnotes {
+  padding-top: 25px;
+}
+
+.footnotes p {
+  text-align: left;
+}
+
+
+
+.avatar {
+  display: block;
+  margin: auto;
+  border: 5px solid #1BA098;
+  border-radius: 100px;
+}
+
+
+
+
