@@ -24,7 +24,8 @@ t %>% select(year, author, title, journal, cites) %>%
   arrange(desc(cites)) %>%
   head(n=5) %>%
    kable()%>%
-  kable_styling(fixed_thead = T,font_size = 7) 
+  kable_styling(fixed_thead = T,font_size = 7) %>%
+  save_kable("best5_recent.html")
  
 # plot publications by year
 p1 <- ggplot(t, aes(x= year)) +
